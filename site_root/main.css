@@ -1,7 +1,23 @@
 body {
   padding-top: 50px;
 }
+
+#dev-space-header {
+	margin-bottom: 15px;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+.dev-space-profile {
+	max-width: 100%;
+}
+
+.profile-header {
+	margin-bottom: 15px;
+}
+
+.profile-footer {
+	margin-top: 5px;
 }
