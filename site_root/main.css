@@ -21,3 +21,7 @@ body {
 .profile-footer {
 	margin-top: 5px;
 }
+
+.profileButtonWrapper {
+	/*display: inline;*/
+}
