@@ -25,3 +25,19 @@ body {
 .profileButtonWrapper {
 	/*display: inline;*/
 }
+
+#contactSection {
+	margin-top: 25px;
+}
+
+#contactInfo {
+	text-align: left;
+}
+
+#contactForm {
+	width: ;
+}
+
+.form-group {
+	text-align: left;
+}
