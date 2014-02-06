@@ -10,6 +10,20 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+/* Resources Styles */
+.resourceItem {
+	background-color: #eee;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding-bottom: 12px;
+}
+
+.resourceItem ul {
+	text-align: left;
+}
+
+/* Profile Styles */
 .dev-space-profile {
 	max-width: 100%;
 }
@@ -26,12 +40,13 @@ body {
 	/*display: inline;*/
 }
 
+/* Contact Form Styles */
 #contactSection {
 	margin-top: 25px;
 }
 
 #contactInfo {
-	text-align: left;
+	/* text-align: left; */
 }
 
 #contactForm {
