@@ -1,0 +1,308 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'nodeclipse' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose cache add [ 'nodeclipse', null ]
+5 verbose cache add name=undefined spec="nodeclipse" args=["nodeclipse",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nodeclipse',
+6 verbose parsed url   path: 'nodeclipse',
+6 verbose parsed url   href: 'nodeclipse' }
+7 silly lockFile e06e48ec-nodeclipse nodeclipse
+8 verbose lock nodeclipse /Users/patrickellis/.npm/e06e48ec-nodeclipse.lock
+9 silly lockFile e06e48ec-nodeclipse nodeclipse
+10 silly lockFile e06e48ec-nodeclipse nodeclipse
+11 verbose addNamed [ 'nodeclipse', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 26fc792e-nodeclipse nodeclipse@
+14 verbose lock nodeclipse@ /Users/patrickellis/.npm/26fc792e-nodeclipse.lock
+15 silly addNameRange { name: 'nodeclipse', range: '*', hasData: false }
+16 verbose url raw nodeclipse
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nodeclipse' ]
+18 verbose url resolved https://registry.npmjs.org/nodeclipse
+19 info trying registry request attempt 1 at 17:22:29
+20 http GET https://registry.npmjs.org/nodeclipse
+21 http 200 https://registry.npmjs.org/nodeclipse
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 23 Feb 2014 01:22:30 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+22 silly registry.get     etag: '"1J8DZ9ZBUTKIID3PHITKMM4JD"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '20821',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '71495',
+22 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-lax1427-LAX',
+22 silly registry.get     'x-cache': 'HIT, MISS',
+22 silly registry.get     'x-cache-hits': '1, 0',
+22 silly registry.get     'x-timer': 'S1393118396.669534683,VS0,VS-19,VE-18,VE153512',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'nodeclipse', range: '*', hasData: true }
+24 silly addNameRange versions [ 'nodeclipse',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.10.5',
+24 silly addNameRange     '0.10.6',
+24 silly addNameRange     '0.10.8',
+24 silly addNameRange     '0.10.9',
+24 silly addNameRange     '0.10.10' ] ]
+25 verbose addNamed [ 'nodeclipse', '0.10.10' ]
+26 verbose addNamed [ '0.10.10', '0.10.10' ]
+27 silly lockFile d8813794-nodeclipse-0-10-10 nodeclipse@0.10.10
+28 verbose lock nodeclipse@0.10.10 /Users/patrickellis/.npm/d8813794-nodeclipse-0-10-10.lock
+29 silly lockFile 78530126-odeclipse-nodeclipse-0-10-10-tgz https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz
+30 verbose lock https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz /Users/patrickellis/.npm/78530126-odeclipse-nodeclipse-0-10-10-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz',
+31 verbose addRemoteTarball   '5da5843fbadaa8cd86d8d3867f98ca7f7733e4c8' ]
+32 info retry fetch attempt 1 at 17:22:30
+33 verbose fetch to= /var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/tmp.tgz
+34 http GET https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz
+35 http 200 https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz
+36 verbose tar unpack /var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/tmp.tgz
+37 silly lockFile 5f2e4316-550226-0-416799294995144-package tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+38 verbose lock tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package /Users/patrickellis/.npm/5f2e4316-550226-0-416799294995144-package.lock
+39 silly lockFile 17b96259-550226-0-416799294995144-tmp-tgz tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/tmp.tgz
+40 verbose lock tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/tmp.tgz /Users/patrickellis/.npm/17b96259-550226-0-416799294995144-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+48 silly gunzTarPerm extractEntry copier.js
+49 silly gunzTarPerm modified mode [ 'copier.js', 438, 420 ]
+50 silly gunzTarPerm extractEntry nodeclipse-install.js
+51 silly gunzTarPerm modified mode [ 'nodeclipse-install.js', 438, 420 ]
+52 silly gunzTarPerm extractEntry spawning.js
+53 silly gunzTarPerm modified mode [ 'spawning.js', 438, 420 ]
+54 silly gunzTarPerm extractEntry hello-coffee/hello-world-server.coffee
+55 silly gunzTarPerm modified mode [ 'hello-coffee/hello-world-server.coffee', 438, 420 ]
+56 silly gunzTarPerm extractEntry hello-html/README.md
+57 silly gunzTarPerm modified mode [ 'hello-html/README.md', 438, 420 ]
+58 silly gunzTarPerm extractEntry hello-html/index.js
+59 silly gunzTarPerm modified mode [ 'hello-html/index.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry hello-html/index.html
+61 silly gunzTarPerm modified mode [ 'hello-html/index.html', 438, 420 ]
+62 silly gunzTarPerm extractEntry hello-koa/koa-app.njs
+63 silly gunzTarPerm modified mode [ 'hello-koa/koa-app.njs', 438, 420 ]
+64 silly gunzTarPerm extractEntry hello-typescript/hello-world-server.ts
+65 silly gunzTarPerm modified mode [ 'hello-typescript/hello-world-server.ts', 438, 420 ]
+66 silly gunzTarPerm extractEntry bin/epm.js
+67 silly gunzTarPerm modified mode [ 'bin/epm.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry bin/nci.js
+69 silly gunzTarPerm modified mode [ 'bin/nci.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry bin/nodeclipse.js
+71 silly gunzTarPerm modified mode [ 'bin/nodeclipse.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry hello-world/package.json
+73 silly gunzTarPerm modified mode [ 'hello-world/package.json', 438, 420 ]
+74 silly gunzTarPerm extractEntry hello-world/hello-world-server.njs
+75 silly gunzTarPerm modified mode [ 'hello-world/hello-world-server.njs', 438, 420 ]
+76 silly gunzTarPerm extractEntry issue.txt
+77 silly gunzTarPerm modified mode [ 'issue.txt', 438, 420 ]
+78 silly gunzTarPerm extractEntry mongodb-replicaset/package.json
+79 silly gunzTarPerm modified mode [ 'mongodb-replicaset/package.json', 438, 420 ]
+80 silly gunzTarPerm extractEntry mongodb-replicaset/MongoDB.md
+81 silly gunzTarPerm modified mode [ 'mongodb-replicaset/MongoDB.md', 438, 420 ]
+82 silly gunzTarPerm extractEntry common-templates/.npmignore
+83 silly gunzTarPerm modified mode [ 'common-templates/.npmignore', 438, 420 ]
+84 silly gunzTarPerm extractEntry common-templates/README.md
+85 silly gunzTarPerm modified mode [ 'common-templates/README.md', 438, 420 ]
+86 silly gunzTarPerm extractEntry common-templates/.jshintrc
+87 silly gunzTarPerm modified mode [ 'common-templates/.jshintrc', 438, 420 ]
+88 silly gunzTarPerm extractEntry common-templates/.settings/com.eclipsesource.jshint.ui.prefs
+89 silly gunzTarPerm modified mode [ 'common-templates/.settings/com.eclipsesource.jshint.ui.prefs',
+89 silly gunzTarPerm   438,
+89 silly gunzTarPerm   420 ]
+90 silly gunzTarPerm extractEntry common-templates/.settings/org.eclipse.wst.jsdt.core.prefs
+91 silly gunzTarPerm modified mode [ 'common-templates/.settings/org.eclipse.wst.jsdt.core.prefs',
+91 silly gunzTarPerm   438,
+91 silly gunzTarPerm   420 ]
+92 silly gunzTarPerm extractEntry template-maven-java/.classpath
+93 silly gunzTarPerm modified mode [ 'template-maven-java/.classpath', 438, 420 ]
+94 silly gunzTarPerm extractEntry template-maven-java/.project
+95 silly gunzTarPerm modified mode [ 'template-maven-java/.project', 438, 420 ]
+96 silly gunzTarPerm extractEntry template-maven-java/pom.xml
+97 silly gunzTarPerm modified mode [ 'template-maven-java/pom.xml', 438, 420 ]
+98 silly gunzTarPerm extractEntry eclipse/.project
+99 silly gunzTarPerm modified mode [ 'eclipse/.project', 438, 420 ]
+100 silly gunzTarPerm extractEntry eclipse-project-general/.project
+101 silly gunzTarPerm modified mode [ 'eclipse-project-general/.project', 438, 420 ]
+102 silly gunzTarPerm extractEntry template-gradle-java/.classpath
+103 silly gunzTarPerm modified mode [ 'template-gradle-java/.classpath', 438, 420 ]
+104 silly gunzTarPerm extractEntry template-gradle-java/.project
+105 silly gunzTarPerm modified mode [ 'template-gradle-java/.project', 438, 420 ]
+106 silly gunzTarPerm extractEntry template-gradle-java/build.gradle
+107 silly gunzTarPerm modified mode [ 'template-gradle-java/build.gradle', 438, 420 ]
+108 silly gunzTarPerm extractEntry hello-vertx/README.md
+109 silly gunzTarPerm modified mode [ 'hello-vertx/README.md', 438, 420 ]
+110 silly gunzTarPerm extractEntry hello-vertx/hello-vertx.js
+111 silly gunzTarPerm modified mode [ 'hello-vertx/hello-vertx.js', 438, 420 ]
+112 silly gunzTarPerm extractEntry hello-vertx/hello-vorld.js
+113 silly gunzTarPerm modified mode [ 'hello-vertx/hello-vorld.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry hello-vertx/index.html
+115 silly gunzTarPerm modified mode [ 'hello-vertx/index.html', 438, 420 ]
+116 silly lockFile 5f2e4316-550226-0-416799294995144-package tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+117 silly lockFile 5f2e4316-550226-0-416799294995144-package tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+118 silly lockFile 17b96259-550226-0-416799294995144-tmp-tgz tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/tmp.tgz
+119 silly lockFile 17b96259-550226-0-416799294995144-tmp-tgz tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/tmp.tgz
+120 verbose tar pack [ '/Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz',
+120 verbose tar pack   '/var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package' ]
+121 verbose tarball /Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+122 verbose folder /var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+123 silly lockFile 5f2e4316-550226-0-416799294995144-package tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+124 verbose lock tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package /Users/patrickellis/.npm/5f2e4316-550226-0-416799294995144-package.lock
+125 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+126 verbose lock tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz /Users/patrickellis/.npm/c3fa913d-m-nodeclipse-0-10-10-package-tgz.lock
+127 silly lockFile 5f2e4316-550226-0-416799294995144-package tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+128 silly lockFile 5f2e4316-550226-0-416799294995144-package tar:///var/folders/q_/v4bw9gjn105_865nj3zb9fmh0000gn/T/npm-31623-lFQO_MPu/1393118550226-0.416799294995144/package
+129 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+130 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+131 silly lockFile 6d697f86-s-npm-nodeclipse-0-10-10-package /Users/patrickellis/.npm/nodeclipse/0.10.10/package
+132 verbose lock /Users/patrickellis/.npm/nodeclipse/0.10.10/package /Users/patrickellis/.npm/6d697f86-s-npm-nodeclipse-0-10-10-package.lock
+133 silly lockFile 6d697f86-s-npm-nodeclipse-0-10-10-package /Users/patrickellis/.npm/nodeclipse/0.10.10/package
+134 silly lockFile 6d697f86-s-npm-nodeclipse-0-10-10-package /Users/patrickellis/.npm/nodeclipse/0.10.10/package
+135 verbose tar unpack /Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+136 silly lockFile 8355c90c-s-npm-nodeclipse-0-10-10-package tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package
+137 verbose lock tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package /Users/patrickellis/.npm/8355c90c-s-npm-nodeclipse-0-10-10-package.lock
+138 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+139 verbose lock tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz /Users/patrickellis/.npm/c3fa913d-m-nodeclipse-0-10-10-package-tgz.lock
+140 silly gunzTarPerm modes [ '755', '644' ]
+141 silly gunzTarPerm extractEntry package.json
+142 silly gunzTarPerm extractEntry .npmignore
+143 silly gunzTarPerm extractEntry README.md
+144 silly gunzTarPerm extractEntry copier.js
+145 silly gunzTarPerm extractEntry nodeclipse-install.js
+146 silly gunzTarPerm extractEntry spawning.js
+147 silly gunzTarPerm extractEntry eclipse-project-general/.project
+148 silly gunzTarPerm extractEntry hello-coffee/hello-world-server.coffee
+149 silly gunzTarPerm extractEntry hello-html/README.md
+150 silly gunzTarPerm extractEntry hello-html/index.js
+151 silly gunzTarPerm extractEntry hello-html/index.html
+152 silly gunzTarPerm extractEntry hello-koa/koa-app.njs
+153 silly gunzTarPerm extractEntry bin/epm.js
+154 silly gunzTarPerm extractEntry bin/nci.js
+155 silly gunzTarPerm extractEntry bin/nodeclipse.js
+156 silly gunzTarPerm extractEntry hello-vertx/README.md
+157 silly gunzTarPerm extractEntry hello-vertx/hello-vertx.js
+158 silly gunzTarPerm extractEntry hello-vertx/hello-vorld.js
+159 silly gunzTarPerm extractEntry hello-vertx/index.html
+160 silly gunzTarPerm extractEntry hello-world/package.json
+161 silly gunzTarPerm extractEntry hello-world/hello-world-server.njs
+162 silly gunzTarPerm extractEntry issue.txt
+163 silly gunzTarPerm extractEntry mongodb-replicaset/package.json
+164 silly gunzTarPerm extractEntry mongodb-replicaset/MongoDB.md
+165 silly gunzTarPerm extractEntry common-templates/.npmignore
+166 silly gunzTarPerm extractEntry common-templates/README.md
+167 silly gunzTarPerm extractEntry common-templates/.jshintrc
+168 silly gunzTarPerm extractEntry common-templates/.settings/com.eclipsesource.jshint.ui.prefs
+169 silly gunzTarPerm extractEntry common-templates/.settings/org.eclipse.wst.jsdt.core.prefs
+170 silly gunzTarPerm extractEntry template-maven-java/.classpath
+171 silly gunzTarPerm extractEntry template-maven-java/.project
+172 silly gunzTarPerm extractEntry template-maven-java/pom.xml
+173 silly gunzTarPerm extractEntry eclipse/.project
+174 silly gunzTarPerm extractEntry template-gradle-java/.classpath
+175 silly gunzTarPerm extractEntry template-gradle-java/.project
+176 silly gunzTarPerm extractEntry template-gradle-java/build.gradle
+177 silly gunzTarPerm extractEntry hello-typescript/hello-world-server.ts
+178 silly lockFile 8355c90c-s-npm-nodeclipse-0-10-10-package tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package
+179 silly lockFile 8355c90c-s-npm-nodeclipse-0-10-10-package tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package
+180 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+181 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+182 verbose chmod /Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz 644
+183 verbose chown /Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz [ 501, 20 ]
+184 silly lockFile 78530126-odeclipse-nodeclipse-0-10-10-tgz https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz
+185 silly lockFile 78530126-odeclipse-nodeclipse-0-10-10-tgz https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz
+186 silly lockFile d8813794-nodeclipse-0-10-10 nodeclipse@0.10.10
+187 silly lockFile d8813794-nodeclipse-0-10-10 nodeclipse@0.10.10
+188 silly lockFile 26fc792e-nodeclipse nodeclipse@
+189 silly lockFile 26fc792e-nodeclipse nodeclipse@
+190 silly resolved [ { name: 'nodeclipse',
+190 silly resolved     version: '0.10.10',
+190 silly resolved     description: 'nodeclipse CLI - prepare Node.js project to be imported into Eclipse (Nodeclipse); Installer - eclipse plugin CLI installer',
+190 silly resolved     main: 'copier.js',
+190 silly resolved     scripts: { test: 'test' },
+190 silly resolved     bin:
+190 silly resolved      { nodeclipse: './bin/nodeclipse.js',
+190 silly resolved        nci: './bin/nci.js',
+190 silly resolved        epm: './bin/epm.js' },
+190 silly resolved     repository:
+190 silly resolved      { type: 'git',
+190 silly resolved        url: 'https://github.com/Nodeclipse/nodeclipse-1.git' },
+190 silly resolved     keywords:
+190 silly resolved      [ 'eclipse',
+190 silly resolved        'ide',
+190 silly resolved        'enide',
+190 silly resolved        'nodeclipse',
+190 silly resolved        'import',
+190 silly resolved        'node.js',
+190 silly resolved        'debug',
+190 silly resolved        'template',
+190 silly resolved        'installer',
+190 silly resolved        'p2',
+190 silly resolved        'director' ],
+190 silly resolved     author: { name: 'Paul Verest' },
+190 silly resolved     license: 'MIT',
+190 silly resolved     readmeFilename: 'README.md',
+190 silly resolved     dependencies: { optimist: '~0.6.0', shelljs: '~0.2.6' },
+190 silly resolved     readme: '\r\n\r\n# Nodeclipse CLI & Installer\r\n\r\n## Node.js Development with Eclipse or Enide Studio\r\n\r\nInstall with `npm install -g nodeclipse`\r\n\r\nUsage: just run `nodeclipse -p` to add needed `.project` file to current directory\r\n\r\nIn Eclipse `File -> Import -> General / Existing Projects into Workspace`\r\n\r\nCheck <http://www.nodeclipse.org/> on how to get Nodeclipse or Enide Studio\r\n\r\n## Nodeclipse CLI Commands\r\n\r\n\tUsage: nodeclipse [arguments]\r\n\r\n\tArguments:\r\n\t  -c, --create <name>      create project folder <name> [using template] and prepare it\r\n\t  -u, --use <template>     use/copy specified template when creating project\r\n\t  -p, --prepare            prepare Nodeclipse [Node.js] project for import, i.e. add needed `.project`\r\n\t  \t\t\t\t\t\t\tand other `.*` files (\'.gitignore\', \'.jshintrc\', \'.settings/\') if there is no `.project` yet\r\n      -g, --eclipse_project_general   prepare General Eclipse project for import, i.e. add only needed `.project` file\r\n\t  -n, --name [<name>]      project name (default is folder name)\r\n\t  -h, --help               Check README\r\n\t  -v, --version            print nodeclipse CLI\'s version\r\n\t  -V, --verbose            be verbose\r\n\r\n\tTemplates are just folders in this project sources:\r\n\t  hello-world              The famous hello world HTTP server in 6 lines\r\n\t  hello-coffee\t           The same server written in CoffeeScript\r\n\t  hello-typescript         The same server written in TypeScript\r\n\t  hello-html\t\t       Template with HTML file\r\n\t  template-gradle-java     Gradle Java project\r\n\t  template-maven-java      Maven Java project\r\n\t  \r\nExamples:\r\n\r\n\tnodeclipse -p\r\n\t\r\n\tnodeclipse --prepare project1\r\n\t\r\n\tnodeclipse --create project2\r\n\t\r\n\tnodeclipse --create project3 --use hello-coffee\r\n\t\r\n\tnodeclipse -c project4 -u hello-coffee\r\n\r\n\r\n## Nodeclipse CLI installer\r\n\r\nNodeclipse CLI installer is for installing/updating plugins into Eclipse/Enide Studio.\r\nIt is much quicker way when you need to automate and know exactly what you need.\r\n\r\n\tcd path/to/eclipse\r\n\tnodeclipse install egit\r\n\r\nor if you are in a hurry\r\n\r\n\tcd path/to/eclipse && nodeclipse i gfm markdown startexplorer\r\n\t\r\nIf while installing you get errors, that you don\'t know how to solve, use Eclipse GUI or raise an issue.\t\r\n\r\n  Usage: nodeclipse install [aliases]\r\n  Mapped aliases: egit git gfm gradle icons jjs markdown mongodb mongodb.shell moonrise nodejs phantomjs pluginslist restclient shelled startexplorer\r\n  \r\nIssues: \r\n- When updating, I noticed that Eclipse once reported conflict when installing \'nodejs\', but was OK for second try.  \r\n- Cannot resolute to install required JSDT for Nodeclipse nodejs. Install JSDT version specific for your Eclipse version. (use Eclipse GUI)\r\n\r\n## Eclipse Workspace and Project\r\n\r\nEclipse Workspace is just folder that contains Eclipse Projects.\r\nEclipse Projects is just folder with `.project` file.\r\n\r\n## Developing Nodeclipse CLI\r\n\r\n[#91](https://github.com/Nodeclipse/nodeclipse-1/issues/91)\r\n\r\nProject sources are at https://github.com/Nodeclipse/nodeclipse-1\r\nunder https://github.com/Nodeclipse/nodeclipse-1/tree/master/org.nodeclipse.ui/templates\r\n\r\n<https://npmjs.org/doc/developers.html>\r\n\r\nbefore publishing\r\n- try with `npm install . -g`\r\n- check that nodeclipse.js line ending is UNIX style (#101)\r\n\r\n[#4341](https://github.com/isaacs/npm/issues/4341) `common-templates/.gitignore` becomes `common-templates/.npmignore` \r\n\r\n#### Links\r\n\r\n> The only feature that differentiates a command-line program from a library is the bin field in the package.json file.\r\n\r\n<http://howtonode.org/how-to-module>\r\n\r\n### Ideas\r\n\r\n\t$ nodeclipse -h\r\n\tUsage: nodeclipse [directory] [arguments]\r\n\t\r\n      -f, --force              force on non-empty directory (by default existing files are not updated)\r\n\t  -pg\t\t\t\t\tas general project\r\n\t  -pn\t \t\t\t\tas Nodeclipse Node.js project (default)\r\n\t  -t, --template <template>     use/copy specified template when creating project (see also `git init`)\r\n\t  --gitclone <repository>\t\t\tcall git clone [directory]\r\n\t  --js2njs (renamejs)\r\n\t  --njs2js \r\n\t  \r\nTODO Examples:\r\n\r\n\tgit clone repository directory\r\n\tnodeclipse directory -pg\t\r\n\t\r\n\tnodeclipse directory -pg --gitclone repository \r\n\tnodeclipse --gitclone repository directory -pg (bad?)\r\n\t\r\nDream - I wish I could get current project in GitHub as project in Eclipse with 1 click.\r\noptions are: \t\r\n- eclipse wizards accessible with icon, where I only need to git repository URL\r\n- add link on Wizard Page\r\n- options to refine .jshintrc\r\n\r\nBuild Eclipse Java Project from Command Line\r\nhttp://stackoverflow.com/questions/206473/build-eclipse-java-project-from-command-line\r\n\r\nList of workspace projects\r\n`<workspace>\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\`\r\n\r\n- http://stackoverflow.com/questions/251116/where-in-an-eclipse-workspace-is-the-list-of-projects-stored\r\n- http://stackoverflow.com/questions/1718456/create-an-eclipse-project-on-the-command-line\r\n- http://stackoverflow.com/questions/8908219/eclipse-import-project-using-command-line\r\n- http://stackoverflow.com/questions/206473/build-eclipse-java-project-from-command-line\r\n\r\n\teclipsec.exe -noSplash -data "D:\\Source\\MyProject\\workspace" -application org.eclipse.jdt.apt.core.aptBuild\r\n\t\r\n\tjava -cp startup.jar -noSplash -data "D:\\Source\\MyProject\\workspace" -application org.eclipse.jdt.apt.core.aptBuild\r\n\r\n## History\r\n\r\n- 0.8.2 fix #101 (bug on MacOS); -g option\r\n- 0.8.3 fix general project template\r\n- 0.10.0 add 2 java templates\r\n- 0.10.5 add Nodeclipse CLI Installer (example `nodeclipse install markdown`)\r\n- 0.10.6 fix #101 again; total aliases=20 \r\n- 0.10.8 add maven, gradle features; install from .zip; install all \r\n- 0.10.9 comma-sep-list of repositories; lookup for repositories.  \r\n\tExamples: `nci install from kepler jsdt` \r\n- 0.10.10 uninstall, materialize\r\n\tExamples: `nci uninstall mongodb.shell` , `nci new from luna to d:/progs/eclipse-diy-luna/`\r\n\r\n## News\r\n\r\nCheck <http://www.nodeclipse.org/>\r\n',
+190 silly resolved     bugs: { url: 'https://github.com/Nodeclipse/nodeclipse-1/issues' },
+190 silly resolved     homepage: 'https://github.com/Nodeclipse/nodeclipse-1',
+190 silly resolved     _id: 'nodeclipse@0.10.10',
+190 silly resolved     dist: { shasum: '6820ab195422c94aad31fb4e086f2f2f1a5ff527' },
+190 silly resolved     _from: 'nodeclipse@',
+190 silly resolved     _resolved: 'https://registry.npmjs.org/nodeclipse/-/nodeclipse-0.10.10.tgz' } ]
+191 info install nodeclipse@0.10.10 into /usr/local/lib
+192 info installOne nodeclipse@0.10.10
+193 info /usr/local/lib/node_modules/nodeclipse unbuild
+194 verbose tar unpack /Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+195 silly lockFile 8925ebf3-ocal-lib-node-modules-nodeclipse tar:///usr/local/lib/node_modules/nodeclipse
+196 verbose lock tar:///usr/local/lib/node_modules/nodeclipse /Users/patrickellis/.npm/8925ebf3-ocal-lib-node-modules-nodeclipse.lock
+197 silly lockFile c3fa913d-m-nodeclipse-0-10-10-package-tgz tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz
+198 verbose lock tar:///Users/patrickellis/.npm/nodeclipse/0.10.10/package.tgz /Users/patrickellis/.npm/c3fa913d-m-nodeclipse-0-10-10-package-tgz.lock
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeclipse'
+200 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeclipse']
+200 error   errno: 3,
+200 error   code: 'EACCES',
+200 error   path: '/usr/local/lib/node_modules/nodeclipse',
+200 error   fstream_type: 'Directory',
+200 error   fstream_path: '/usr/local/lib/node_modules/nodeclipse',
+200 error   fstream_class: 'DirWriter',
+200 error   fstream_stack:
+200 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+200 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+200 error      'Object.oncomplete (fs.js:107:15)' ] }
+201 error Please try running this command again as root/Administrator.
+202 error System Darwin 13.0.0
+203 error command "node" "/usr/local/bin/npm" "install" "-g" "nodeclipse"
+204 error cwd /Users/patrickellis/Documents/webdev/GHCS-Website
+205 error node -v v0.10.25
+206 error npm -v 1.3.24
+207 error path /usr/local/lib/node_modules/nodeclipse
+208 error fstream_path /usr/local/lib/node_modules/nodeclipse
+209 error fstream_type Directory
+210 error fstream_class DirWriter
+211 error code EACCES
+212 error errno 3
+213 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeclipse'
+214 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+214 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+214 error fstream_stack Object.oncomplete (fs.js:107:15)
+215 verbose exit [ 3, true ]
